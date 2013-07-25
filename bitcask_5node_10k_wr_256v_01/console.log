@@ -1,0 +1,386 @@
+2013-07-25 07:43:15.022 [debug] <0.44.0> Lager installed handler {lager_file_backend,"/usr/local/basho_bench/tests/20130725_074314/console.log"} into lager_event
+2013-07-25 07:43:15.024 [debug] <0.46.0> Lager installed handler error_logger_lager_h into error_logger
+2013-07-25 07:43:15.024 [info] <0.6.0> Application lager started on node nonode@nohost
+2013-07-25 07:43:15.031 [info] <0.2.0>@basho_bench:log_dimensions:249 Est. data size: 5.72 GB
+2013-07-25 07:43:15.051 [debug] <0.54.0> Supervisor sasl_safe_sup started alarm_handler:start_link() at pid <0.55.0>
+2013-07-25 07:43:15.052 [debug] <0.54.0> Supervisor sasl_safe_sup started overload:start_link() at pid <0.56.0>
+2013-07-25 07:43:15.053 [debug] <0.53.0> Supervisor sasl_sup started supervisor:start_link({local,sasl_safe_sup}, sasl, safe) at pid <0.54.0>
+2013-07-25 07:43:15.053 [debug] <0.53.0> Supervisor sasl_sup started release_handler:start_link() at pid <0.57.0>
+2013-07-25 07:43:15.054 [info] <0.6.0> Application sasl started on node nonode@nohost
+2013-07-25 07:43:15.058 [debug] <0.62.0> Supervisor crypto_sup started crypto_server:start_link() at pid <0.63.0>
+2013-07-25 07:43:15.058 [info] <0.6.0> Application crypto started on node nonode@nohost
+2013-07-25 07:43:15.063 [debug] <0.72.0> Supervisor folsom_sup started folsom_sample_slide_sup:start_link() at pid <0.73.0>
+2013-07-25 07:43:15.064 [debug] <0.72.0> Supervisor folsom_sup started folsom_meter_timer_server:start_link() at pid <0.74.0>
+2013-07-25 07:43:15.064 [debug] <0.72.0> Supervisor folsom_sup started folsom_metrics_histogram_ets:start_link() at pid <0.75.0>
+2013-07-25 07:43:15.064 [info] <0.6.0> Application folsom started on node nonode@nohost
+2013-07-25 07:43:15.071 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_stats:start_link() at pid <0.68.0>
+2013-07-25 07:43:15.073 [warning] <0.78.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.073 [debug] <0.78.0>@basho_bench_valgen:init_source:77 random source
+2013-07-25 07:43:15.134 [info] <0.80.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 1
+2013-07-25 07:43:15.137 [warning] <0.82.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.138 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_1, 1) at pid <0.78.0>
+2013-07-25 07:43:15.191 [info] <0.83.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 2
+2013-07-25 07:43:15.191 [warning] <0.87.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.192 [debug] <0.84.0> Supervisor inet_gethost_native_sup started undefined at pid <0.85.0>
+2013-07-25 07:43:15.192 [debug] <0.25.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.84.0>
+2013-07-25 07:43:15.193 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_2, 2) at pid <0.82.0>
+2013-07-25 07:43:15.245 [info] <0.88.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 3
+2013-07-25 07:43:15.245 [warning] <0.90.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.245 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_3, 3) at pid <0.87.0>
+2013-07-25 07:43:15.297 [info] <0.91.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 4
+2013-07-25 07:43:15.298 [warning] <0.93.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.298 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_4, 4) at pid <0.90.0>
+2013-07-25 07:43:15.350 [info] <0.94.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 5
+2013-07-25 07:43:15.350 [warning] <0.96.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.351 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_5, 5) at pid <0.93.0>
+2013-07-25 07:43:15.403 [info] <0.97.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 6
+2013-07-25 07:43:15.403 [warning] <0.99.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.403 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_6, 6) at pid <0.96.0>
+2013-07-25 07:43:15.456 [info] <0.100.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 7
+2013-07-25 07:43:15.456 [warning] <0.102.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.457 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_7, 7) at pid <0.99.0>
+2013-07-25 07:43:15.509 [info] <0.103.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 8
+2013-07-25 07:43:15.509 [warning] <0.105.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.509 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_8, 8) at pid <0.102.0>
+2013-07-25 07:43:15.561 [info] <0.106.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 9
+2013-07-25 07:43:15.561 [warning] <0.108.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.562 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_9, 9) at pid <0.105.0>
+2013-07-25 07:43:15.614 [info] <0.109.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 10
+2013-07-25 07:43:15.614 [warning] <0.111.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.615 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_10, 10) at pid <0.108.0>
+2013-07-25 07:43:15.667 [info] <0.112.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 11
+2013-07-25 07:43:15.667 [warning] <0.114.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.667 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_11, 11) at pid <0.111.0>
+2013-07-25 07:43:15.720 [info] <0.115.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 12
+2013-07-25 07:43:15.720 [warning] <0.117.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.720 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_12, 12) at pid <0.114.0>
+2013-07-25 07:43:15.773 [info] <0.118.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 13
+2013-07-25 07:43:15.773 [warning] <0.120.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.773 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_13, 13) at pid <0.117.0>
+2013-07-25 07:43:15.825 [info] <0.121.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 14
+2013-07-25 07:43:15.826 [warning] <0.123.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.826 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_14, 14) at pid <0.120.0>
+2013-07-25 07:43:15.879 [info] <0.124.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 15
+2013-07-25 07:43:15.879 [warning] <0.126.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.879 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_15, 15) at pid <0.123.0>
+2013-07-25 07:43:15.932 [info] <0.127.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 16
+2013-07-25 07:43:15.932 [warning] <0.129.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.932 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_16, 16) at pid <0.126.0>
+2013-07-25 07:43:15.985 [info] <0.130.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 17
+2013-07-25 07:43:15.985 [warning] <0.132.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:15.985 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_17, 17) at pid <0.129.0>
+2013-07-25 07:43:16.038 [info] <0.133.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 18
+2013-07-25 07:43:16.038 [warning] <0.135.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.038 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_18, 18) at pid <0.132.0>
+2013-07-25 07:43:16.091 [info] <0.136.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 19
+2013-07-25 07:43:16.091 [warning] <0.138.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.092 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_19, 19) at pid <0.135.0>
+2013-07-25 07:43:16.144 [info] <0.139.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 20
+2013-07-25 07:43:16.144 [warning] <0.141.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.145 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_20, 20) at pid <0.138.0>
+2013-07-25 07:43:16.197 [info] <0.142.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 21
+2013-07-25 07:43:16.197 [warning] <0.144.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.198 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_21, 21) at pid <0.141.0>
+2013-07-25 07:43:16.250 [info] <0.145.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 22
+2013-07-25 07:43:16.250 [warning] <0.147.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.250 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_22, 22) at pid <0.144.0>
+2013-07-25 07:43:16.303 [info] <0.148.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 23
+2013-07-25 07:43:16.303 [warning] <0.150.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.303 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_23, 23) at pid <0.147.0>
+2013-07-25 07:43:16.356 [info] <0.151.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 24
+2013-07-25 07:43:16.356 [warning] <0.153.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.356 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_24, 24) at pid <0.150.0>
+2013-07-25 07:43:16.408 [info] <0.154.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 25
+2013-07-25 07:43:16.408 [warning] <0.156.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.409 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_25, 25) at pid <0.153.0>
+2013-07-25 07:43:16.461 [info] <0.157.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 26
+2013-07-25 07:43:16.461 [warning] <0.159.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.461 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_26, 26) at pid <0.156.0>
+2013-07-25 07:43:16.513 [info] <0.160.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 27
+2013-07-25 07:43:16.514 [warning] <0.162.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.514 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_27, 27) at pid <0.159.0>
+2013-07-25 07:43:16.566 [info] <0.163.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 28
+2013-07-25 07:43:16.567 [warning] <0.165.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.567 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_28, 28) at pid <0.162.0>
+2013-07-25 07:43:16.619 [info] <0.166.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 29
+2013-07-25 07:43:16.619 [warning] <0.168.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.620 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_29, 29) at pid <0.165.0>
+2013-07-25 07:43:16.672 [info] <0.169.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 30
+2013-07-25 07:43:16.672 [warning] <0.171.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.672 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_30, 30) at pid <0.168.0>
+2013-07-25 07:43:16.725 [info] <0.172.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 31
+2013-07-25 07:43:16.725 [warning] <0.174.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.725 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_31, 31) at pid <0.171.0>
+2013-07-25 07:43:16.778 [info] <0.175.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 32
+2013-07-25 07:43:16.778 [warning] <0.177.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.778 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_32, 32) at pid <0.174.0>
+2013-07-25 07:43:16.830 [info] <0.178.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 33
+2013-07-25 07:43:16.831 [warning] <0.180.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.831 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_33, 33) at pid <0.177.0>
+2013-07-25 07:43:16.883 [info] <0.181.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 34
+2013-07-25 07:43:16.884 [warning] <0.183.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.884 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_34, 34) at pid <0.180.0>
+2013-07-25 07:43:16.936 [info] <0.184.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 35
+2013-07-25 07:43:16.936 [warning] <0.186.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.937 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_35, 35) at pid <0.183.0>
+2013-07-25 07:43:16.989 [info] <0.187.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 36
+2013-07-25 07:43:16.989 [warning] <0.189.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:16.989 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_36, 36) at pid <0.186.0>
+2013-07-25 07:43:17.042 [info] <0.190.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 37
+2013-07-25 07:43:17.042 [warning] <0.192.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.042 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_37, 37) at pid <0.189.0>
+2013-07-25 07:43:17.094 [info] <0.193.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 38
+2013-07-25 07:43:17.095 [warning] <0.195.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.095 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_38, 38) at pid <0.192.0>
+2013-07-25 07:43:17.147 [info] <0.196.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 39
+2013-07-25 07:43:17.147 [warning] <0.198.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.148 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_39, 39) at pid <0.195.0>
+2013-07-25 07:43:17.200 [info] <0.199.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 40
+2013-07-25 07:43:17.200 [warning] <0.201.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.201 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_40, 40) at pid <0.198.0>
+2013-07-25 07:43:17.253 [info] <0.202.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 41
+2013-07-25 07:43:17.254 [warning] <0.204.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.254 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_41, 41) at pid <0.201.0>
+2013-07-25 07:43:17.306 [info] <0.205.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 42
+2013-07-25 07:43:17.307 [warning] <0.207.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.307 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_42, 42) at pid <0.204.0>
+2013-07-25 07:43:17.360 [info] <0.208.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 43
+2013-07-25 07:43:17.360 [warning] <0.210.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.360 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_43, 43) at pid <0.207.0>
+2013-07-25 07:43:17.413 [info] <0.211.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 44
+2013-07-25 07:43:17.413 [warning] <0.213.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.413 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_44, 44) at pid <0.210.0>
+2013-07-25 07:43:17.466 [info] <0.214.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 45
+2013-07-25 07:43:17.466 [warning] <0.216.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.466 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_45, 45) at pid <0.213.0>
+2013-07-25 07:43:17.519 [info] <0.217.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.22":8087 for worker 46
+2013-07-25 07:43:17.519 [warning] <0.219.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.519 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_46, 46) at pid <0.216.0>
+2013-07-25 07:43:17.572 [info] <0.220.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.21":8087 for worker 47
+2013-07-25 07:43:17.572 [warning] <0.222.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.572 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_47, 47) at pid <0.219.0>
+2013-07-25 07:43:17.625 [info] <0.223.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.15":8087 for worker 48
+2013-07-25 07:43:17.625 [warning] <0.225.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.625 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_48, 48) at pid <0.222.0>
+2013-07-25 07:43:17.678 [info] <0.226.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.26":8087 for worker 49
+2013-07-25 07:43:17.678 [warning] <0.228.0>@basho_bench_keygen:new:39 The int_to_bin key generator wrapper is deprecated, please use the int_to_bin_bigendian or int_to_bin_littleendian wrapper instead
+2013-07-25 07:43:17.678 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_49, 49) at pid <0.225.0>
+2013-07-25 07:43:17.731 [info] <0.229.0>@basho_bench_driver_riakc_pb:new:91 Using target "10.0.1.13":8087 for worker 50
+2013-07-25 07:43:17.731 [debug] <0.67.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_50, 50) at pid <0.228.0>
+2013-07-25 07:43:17.732 [debug] <0.25.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.231.0>
+2013-07-25 07:43:17.733 [info] <0.229.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.229.0>
+2013-07-25 07:43:17.733 [info] <0.226.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.226.0>
+2013-07-25 07:43:17.733 [info] <0.223.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.223.0>
+2013-07-25 07:43:17.733 [info] <0.220.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.220.0>
+2013-07-25 07:43:17.733 [info] <0.217.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.217.0>
+2013-07-25 07:43:17.733 [info] <0.199.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.199.0>
+2013-07-25 07:43:17.733 [info] <0.214.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.214.0>
+2013-07-25 07:43:17.733 [info] <0.187.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.187.0>
+2013-07-25 07:43:17.733 [info] <0.184.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.184.0>
+2013-07-25 07:43:17.733 [info] <0.166.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.166.0>
+2013-07-25 07:43:17.733 [info] <0.211.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.211.0>
+2013-07-25 07:43:17.733 [info] <0.163.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.163.0>
+2013-07-25 07:43:17.734 [info] <0.169.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.169.0>
+2013-07-25 07:43:17.734 [info] <0.208.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.208.0>
+2013-07-25 07:43:17.734 [info] <0.172.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.172.0>
+2013-07-25 07:43:17.734 [info] <0.175.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.175.0>
+2013-07-25 07:43:17.734 [info] <0.178.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.178.0>
+2013-07-25 07:43:17.734 [info] <0.205.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.205.0>
+2013-07-25 07:43:17.734 [info] <0.193.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.193.0>
+2013-07-25 07:43:17.734 [info] <0.181.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.181.0>
+2013-07-25 07:43:17.734 [info] <0.190.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.190.0>
+2013-07-25 07:43:17.734 [info] <0.202.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.202.0>
+2013-07-25 07:43:17.734 [info] <0.196.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.196.0>
+2013-07-25 07:43:17.734 [info] <0.157.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.157.0>
+2013-07-25 07:43:17.734 [info] <0.160.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.160.0>
+2013-07-25 07:43:17.734 [info] <0.154.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.154.0>
+2013-07-25 07:43:17.734 [info] <0.151.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.151.0>
+2013-07-25 07:43:17.734 [info] <0.148.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.148.0>
+2013-07-25 07:43:17.734 [info] <0.145.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.145.0>
+2013-07-25 07:43:17.734 [info] <0.142.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.142.0>
+2013-07-25 07:43:17.734 [info] <0.139.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.139.0>
+2013-07-25 07:43:17.734 [info] <0.127.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.127.0>
+2013-07-25 07:43:17.734 [info] <0.136.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.136.0>
+2013-07-25 07:43:17.734 [info] <0.124.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.124.0>
+2013-07-25 07:43:17.734 [info] <0.130.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.130.0>
+2013-07-25 07:43:17.734 [info] <0.121.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.121.0>
+2013-07-25 07:43:17.734 [info] <0.133.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.133.0>
+2013-07-25 07:43:17.734 [info] <0.115.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.115.0>
+2013-07-25 07:43:17.734 [info] <0.112.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.112.0>
+2013-07-25 07:43:17.734 [info] <0.118.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.118.0>
+2013-07-25 07:43:17.734 [info] <0.106.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.106.0>
+2013-07-25 07:43:17.734 [info] <0.109.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.109.0>
+2013-07-25 07:43:17.734 [info] <0.100.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.100.0>
+2013-07-25 07:43:17.734 [info] <0.103.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.103.0>
+2013-07-25 07:43:17.734 [info] <0.91.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.91.0>
+2013-07-25 07:43:17.734 [info] <0.88.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.88.0>
+2013-07-25 07:43:17.734 [info] <0.83.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.83.0>
+2013-07-25 07:43:17.734 [info] <0.80.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.80.0>
+2013-07-25 07:43:17.735 [info] <0.94.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.94.0>
+2013-07-25 07:43:17.735 [info] <0.97.0>@basho_bench_worker:worker_idle_loop:221 Starting max worker: <0.97.0>
+2013-07-25 07:43:17.735 [info] <0.6.0> Application basho_bench started on node nonode@nohost
+2013-07-25 07:46:17.765 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},4420},{{put,put},4483},{{{get,get},disconnected},4420},{{{put,put},disconnected},4481},{{{put,put},timeout},2}]
+2013-07-25 07:46:37.748 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},3300},{{put,put},3263},{{{get,get},disconnected},3300},{{{put,put},disconnected},3262},{{{put,put},timeout},1}]
+2013-07-25 07:46:47.746 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},63942},{{put,put},63922},{{{get,get},disconnected},63942},{{{put,put},disconnected},63900},{{{put,put},timeout},22}]
+2013-07-25 07:46:57.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},47573},{{put,put},47766},{{{get,get},disconnected},47573},{{{put,put},disconnected},47751},{{{put,put},timeout},15}]
+2013-07-25 07:47:07.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},65592},{{put,put},65505},{{{get,get},disconnected},65592},{{{put,put},disconnected},65484},{{{put,put},timeout},21}]
+2013-07-25 07:47:17.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},78824},{{put,put},79064},{{{get,get},disconnected},78824},{{{put,put},disconnected},79036},{{{put,put},timeout},28}]
+2013-07-25 07:47:27.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},73564},{{put,put},73720},{{{get,get},disconnected},73564},{{{put,put},disconnected},73695},{{{put,put},timeout},25}]
+2013-07-25 07:47:37.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},89836},{{put,put},89959},{{{get,get},disconnected},89836},{{{put,put},disconnected},89930},{{{put,put},timeout},29}]
+2013-07-25 07:47:47.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},129483},{{put,put},129204},{{{get,get},disconnected},129483},{{{put,put},disconnected},129162},{{{put,put},timeout},42}]
+2013-07-25 07:47:57.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},127507},{{put,put},127466},{{{get,get},disconnected},127507},{{{put,put},disconnected},127423},{{{put,put},timeout},43}]
+2013-07-25 07:48:07.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},117162},{{put,put},117139},{{{get,get},disconnected},117162},{{{put,put},disconnected},117099},{{{put,put},timeout},40}]
+2013-07-25 07:48:17.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},146218},{{put,put},145685},{{{get,get},disconnected},146218},{{{put,put},disconnected},145636},{{{put,put},timeout},49}]
+2013-07-25 07:48:27.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},113354},{{put,put},113222},{{{get,get},disconnected},113354},{{{put,put},disconnected},113185},{{{put,put},timeout},37}]
+2013-07-25 07:48:37.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},83151},{{put,put},83708},{{{get,get},disconnected},83151},{{{put,put},disconnected},83681},{{{put,put},timeout},27}]
+2013-07-25 07:48:47.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},109481},{{put,put},109626},{{{get,get},disconnected},109481},{{{put,put},disconnected},109591},{{{put,put},timeout},35}]
+2013-07-25 07:48:57.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},73456},{{put,put},73380},{{{get,get},disconnected},73456},{{{put,put},disconnected},73356},{{{put,put},timeout},24}]
+2013-07-25 07:49:07.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},86561},{{put,put},87349},{{{get,get},disconnected},86561},{{{put,put},disconnected},87322},{{{put,put},timeout},27}]
+2013-07-25 07:49:17.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},135082},{{put,put},135300},{{{get,get},disconnected},135082},{{{put,put},disconnected},135255},{{{put,put},timeout},45}]
+2013-07-25 07:49:27.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},120782},{{put,put},120096},{{{get,get},disconnected},120782},{{{put,put},disconnected},120057},{{{put,put},timeout},39}]
+2013-07-25 07:49:37.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},96021},{{put,put},96386},{{{get,get},disconnected},96021},{{{put,put},disconnected},96355},{{{put,put},timeout},31}]
+2013-07-25 07:49:47.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},117191},{{put,put},116420},{{{get,get},disconnected},117191},{{{put,put},disconnected},116382},{{{put,put},timeout},38}]
+2013-07-25 07:49:57.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},133439},{{put,put},134340},{{{get,get},disconnected},133439},{{{put,put},disconnected},134293},{{{put,put},timeout},47}]
+2013-07-25 07:50:07.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},130479},{{put,put},130383},{{{get,get},disconnected},130479},{{{put,put},disconnected},130338},{{{put,put},timeout},45}]
+2013-07-25 07:50:17.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},126453},{{put,put},126212},{{{get,get},disconnected},126453},{{{put,put},disconnected},126170},{{{put,put},timeout},42}]
+2013-07-25 07:50:27.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},105802},{{put,put},105967},{{{get,get},disconnected},105802},{{{put,put},disconnected},105931},{{{put,put},timeout},36}]
+2013-07-25 07:50:37.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},107431},{{put,put},107711},{{{get,get},disconnected},107431},{{{put,put},disconnected},107675},{{{put,put},timeout},36}]
+2013-07-25 07:50:47.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},121802},{{put,put},121557},{{{get,get},disconnected},121802},{{{put,put},disconnected},121516},{{{put,put},timeout},41}]
+2013-07-25 07:50:57.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},89182},{{put,put},88923},{{{get,get},disconnected},89182},{{{put,put},disconnected},88893},{{{put,put},timeout},30}]
+2013-07-25 07:51:07.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},113919},{{put,put},113714},{{{get,get},disconnected},113919},{{{put,put},disconnected},113678},{{{put,put},timeout},36}]
+2013-07-25 07:51:17.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},121668},{{put,put},122044},{{{get,get},disconnected},121668},{{{put,put},disconnected},122005},{{{put,put},timeout},39}]
+2013-07-25 07:51:27.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},100756},{{put,put},100476},{{{get,get},disconnected},100756},{{{put,put},disconnected},100442},{{{put,put},timeout},34}]
+2013-07-25 07:51:37.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},108467},{{put,put},108259},{{{get,get},disconnected},108467},{{{put,put},disconnected},108223},{{{put,put},timeout},36}]
+2013-07-25 07:51:47.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},97259},{{put,put},96542},{{{get,get},disconnected},97259},{{{put,put},disconnected},96509},{{{put,put},timeout},33}]
+2013-07-25 07:51:57.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},119656},{{put,put},120339},{{{get,get},disconnected},119656},{{{put,put},disconnected},120299},{{{put,put},timeout},40}]
+2013-07-25 07:52:07.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},85549},{{put,put},86056},{{{get,get},disconnected},85549},{{{put,put},disconnected},86029},{{{put,put},timeout},27}]
+2013-07-25 07:52:17.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},90240},{{put,put},89293},{{{get,get},disconnected},90240},{{{put,put},disconnected},89264},{{{put,put},timeout},29}]
+2013-07-25 07:52:27.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},140383},{{put,put},140836},{{{get,get},disconnected},140383},{{{put,put},disconnected},140790},{{{put,put},timeout},46}]
+2013-07-25 07:52:37.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},116073},{{put,put},115978},{{{get,get},disconnected},116073},{{{put,put},disconnected},115936},{{{put,put},timeout},42}]
+2013-07-25 07:52:47.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},97725},{{put,put},98133},{{{get,get},disconnected},97725},{{{put,put},disconnected},98100},{{{put,put},timeout},33}]
+2013-07-25 07:52:57.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},83146},{{put,put},83678},{{{get,get},disconnected},83146},{{{put,put},disconnected},83651},{{{put,put},timeout},27}]
+2013-07-25 07:53:07.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},48070},{{put,put},48515},{{{get,get},disconnected},48070},{{{put,put},disconnected},48500},{{{put,put},timeout},15}]
+2013-07-25 07:53:17.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},46111},{{put,put},46033},{{{get,get},disconnected},46111},{{{put,put},disconnected},46018},{{{put,put},timeout},15}]
+2013-07-25 07:53:27.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},21957},{{put,put},21742},{{{get,get},disconnected},21957},{{{put,put},disconnected},21736},{{{put,put},timeout},6}]
+2013-07-25 07:53:37.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},36347},{{put,put},36015},{{{get,get},disconnected},36347},{{{put,put},disconnected},36004},{{{put,put},timeout},11}]
+2013-07-25 07:53:47.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},23368},{{put,put},23497},{{{get,get},disconnected},23368},{{{put,put},disconnected},23489},{{{put,put},timeout},8}]
+2013-07-25 07:53:57.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},77734},{{put,put},77498},{{{get,get},disconnected},77734},{{{put,put},disconnected},77473},{{{put,put},timeout},25}]
+2013-07-25 07:54:07.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},11871},{{put,put},11773},{{{get,get},disconnected},11871},{{{put,put},disconnected},11769},{{{put,put},timeout},4}]
+2013-07-25 07:54:17.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},53191},{{put,put},53199},{{{get,get},disconnected},53191},{{{put,put},disconnected},53182},{{{put,put},timeout},17}]
+2013-07-25 07:54:27.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},92217},{{put,put},92175},{{{get,get},disconnected},92217},{{{put,put},disconnected},92144},{{{put,put},timeout},31}]
+2013-07-25 07:54:37.736 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},78874},{{put,put},79073},{{{get,get},disconnected},78874},{{{put,put},disconnected},79047},{{{put,put},timeout},26}]
+2013-07-25 07:54:47.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},65222},{{put,put},65524},{{{get,get},disconnected},65222},{{{put,put},disconnected},65504},{{{put,put},timeout},20}]
+2013-07-25 07:54:57.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},43656},{{put,put},43873},{{{get,get},disconnected},43656},{{{put,put},disconnected},43859},{{{put,put},timeout},14}]
+2013-07-25 07:55:07.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},34396},{{put,put},34487},{{{get,get},disconnected},34396},{{{put,put},disconnected},34476},{{{put,put},timeout},11}]
+2013-07-25 07:55:17.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},59437},{{put,put},59405},{{{get,get},disconnected},59437},{{{put,put},disconnected},59385},{{{put,put},timeout},20}]
+2013-07-25 07:55:27.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},44918},{{put,put},45150},{{{get,get},disconnected},44918},{{{put,put},disconnected},45136},{{{put,put},timeout},14}]
+2013-07-25 07:55:37.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},42361},{{put,put},42741},{{{get,get},disconnected},42361},{{{put,put},disconnected},42727},{{{put,put},timeout},14}]
+2013-07-25 07:55:47.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},72658},{{put,put},72754},{{{get,get},disconnected},72658},{{{put,put},disconnected},72731},{{{put,put},timeout},23}]
+2013-07-25 07:55:57.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},59270},{{put,put},59209},{{{get,get},disconnected},59270},{{{put,put},disconnected},59190},{{{put,put},timeout},19}]
+2013-07-25 07:56:07.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},83942},{{put,put},83508},{{{get,get},disconnected},83942},{{{put,put},disconnected},83482},{{{put,put},timeout},26}]
+2013-07-25 07:56:17.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},49256},{{put,put},49542},{{{get,get},disconnected},49256},{{{put,put},disconnected},49526},{{{put,put},timeout},16}]
+2013-07-25 07:56:27.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},57061},{{put,put},56709},{{{get,get},disconnected},57061},{{{put,put},disconnected},56691},{{{put,put},timeout},18}]
+2013-07-25 07:56:37.737 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},50776},{{put,put},50861},{{{get,get},disconnected},50776},{{{put,put},disconnected},50845},{{{put,put},timeout},16}]
+2013-07-25 07:56:47.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},68934},{{put,put},69157},{{{get,get},disconnected},68934},{{{put,put},disconnected},69134},{{{put,put},timeout},23}]
+2013-07-25 07:56:57.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},63601},{{put,put},63809},{{{get,get},disconnected},63601},{{{put,put},disconnected},63789},{{{put,put},timeout},20}]
+2013-07-25 07:57:07.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},19376},{{put,put},19650},{{{get,get},disconnected},19376},{{{put,put},disconnected},19644},{{{put,put},timeout},6}]
+2013-07-25 07:57:17.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},19252},{{put,put},19443},{{{get,get},disconnected},19252},{{{put,put},disconnected},19437},{{{put,put},timeout},6}]
+2013-07-25 07:57:27.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},26666},{{put,put},26821},{{{get,get},disconnected},26666},{{{put,put},disconnected},26812},{{{put,put},timeout},9}]
+2013-07-25 07:57:37.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},24487},{{put,put},24595},{{{get,get},disconnected},24487},{{{put,put},disconnected},24588},{{{put,put},timeout},7}]
+2013-07-25 07:57:47.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},15030},{{put,put},15257},{{{get,get},disconnected},15030},{{{put,put},disconnected},15252},{{{put,put},timeout},5}]
+2013-07-25 07:57:57.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},22619},{{put,put},22576},{{{get,get},disconnected},22619},{{{put,put},disconnected},22569},{{{put,put},timeout},7}]
+2013-07-25 07:58:07.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},42208},{{put,put},42671},{{{get,get},disconnected},42208},{{{put,put},disconnected},42656},{{{put,put},timeout},15}]
+2013-07-25 07:58:17.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},24060},{{put,put},24050},{{{get,get},disconnected},24060},{{{put,put},disconnected},24043},{{{put,put},timeout},7}]
+2013-07-25 07:58:27.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},43496},{{put,put},43348},{{{get,get},disconnected},43496},{{{put,put},disconnected},43333},{{{put,put},timeout},15}]
+2013-07-25 07:58:37.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},115707},{{put,put},115206},{{{get,get},disconnected},115707},{{{put,put},disconnected},115167},{{{put,put},timeout},39}]
+2013-07-25 07:58:47.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},106035},{{put,put},106598},{{{get,get},disconnected},106035},{{{put,put},disconnected},106563},{{{put,put},timeout},35}]
+2013-07-25 07:58:57.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},83401},{{put,put},83361},{{{get,get},disconnected},83401},{{{put,put},disconnected},83334},{{{put,put},timeout},27}]
+2013-07-25 07:59:07.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},68759},{{put,put},69021},{{{get,get},disconnected},68759},{{{put,put},disconnected},68999},{{{put,put},timeout},22}]
+2013-07-25 07:59:17.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},75442},{{put,put},75556},{{{get,get},disconnected},75442},{{{put,put},disconnected},75532},{{{put,put},timeout},24}]
+2013-07-25 07:59:27.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},64290},{{put,put},64725},{{{get,get},disconnected},64290},{{{put,put},disconnected},64703},{{{put,put},timeout},22}]
+2013-07-25 07:59:37.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},85272},{{put,put},85645},{{{get,get},disconnected},85272},{{{put,put},disconnected},85616},{{{put,put},timeout},29}]
+2013-07-25 07:59:47.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},99929},{{put,put},99587},{{{get,get},disconnected},99929},{{{put,put},disconnected},99555},{{{put,put},timeout},32}]
+2013-07-25 07:59:57.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},32725},{{put,put},32772},{{{get,get},disconnected},32725},{{{put,put},disconnected},32762},{{{put,put},timeout},10}]
+2013-07-25 08:00:07.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},33856},{{put,put},33942},{{{get,get},disconnected},33856},{{{put,put},disconnected},33931},{{{put,put},timeout},11}]
+2013-07-25 08:00:17.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},52893},{{put,put},53442},{{{get,get},disconnected},52893},{{{put,put},disconnected},53425},{{{put,put},timeout},17}]
+2013-07-25 08:00:27.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},16209},{{put,put},16254},{{{get,get},disconnected},16209},{{{put,put},disconnected},16249},{{{put,put},timeout},5}]
+2013-07-25 08:00:37.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},87273},{{put,put},87087},{{{get,get},disconnected},87273},{{{put,put},disconnected},87058},{{{put,put},timeout},29}]
+2013-07-25 08:00:47.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},59180},{{put,put},59577},{{{get,get},disconnected},59180},{{{put,put},disconnected},59557},{{{put,put},timeout},20}]
+2013-07-25 08:00:57.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},31337},{{put,put},30962},{{{get,get},disconnected},31337},{{{put,put},disconnected},30952},{{{put,put},timeout},10}]
+2013-07-25 08:01:07.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},98176},{{put,put},98242},{{{get,get},disconnected},98176},{{{put,put},disconnected},98209},{{{put,put},timeout},33}]
+2013-07-25 08:01:17.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},53847},{{put,put},54573},{{{get,get},disconnected},53847},{{{put,put},disconnected},54554},{{{put,put},timeout},19}]
+2013-07-25 08:01:27.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},45989},{{put,put},45505},{{{get,get},disconnected},45989},{{{put,put},disconnected},45491},{{{put,put},timeout},14}]
+2013-07-25 08:01:37.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},138900},{{put,put},138900},{{{get,get},disconnected},138900},{{{put,put},disconnected},138854},{{{put,put},timeout},46}]
+2013-07-25 08:01:47.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},95672},{{put,put},95603},{{{get,get},disconnected},95672},{{{put,put},disconnected},95572},{{{put,put},timeout},31}]
+2013-07-25 08:01:57.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},70829},{{put,put},71202},{{{get,get},disconnected},70829},{{{put,put},disconnected},71178},{{{put,put},timeout},24}]
+2013-07-25 08:02:07.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},125667},{{put,put},124974},{{{get,get},disconnected},125667},{{{put,put},disconnected},124928},{{{put,put},timeout},46}]
+2013-07-25 08:02:17.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},129847},{{put,put},129284},{{{get,get},disconnected},129847},{{{put,put},disconnected},129240},{{{put,put},timeout},44}]
+2013-07-25 08:02:27.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},19478},{{put,put},19320},{{{get,get},disconnected},19478},{{{put,put},disconnected},19314},{{{put,put},timeout},6}]
+2013-07-25 08:02:37.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},85216},{{put,put},84819},{{{get,get},disconnected},85216},{{{put,put},disconnected},84791},{{{put,put},timeout},28}]
+2013-07-25 08:02:47.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},81722},{{put,put},81218},{{{get,get},disconnected},81722},{{{put,put},disconnected},81192},{{{put,put},timeout},26}]
+2013-07-25 08:02:57.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},19559},{{put,put},19373},{{{get,get},disconnected},19559},{{{put,put},disconnected},19367},{{{put,put},timeout},6}]
+2013-07-25 08:03:07.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},36634},{{put,put},36560},{{{get,get},disconnected},36634},{{{put,put},disconnected},36548},{{{put,put},timeout},12}]
+2013-07-25 08:03:17.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},36129},{{put,put},36096},{{{get,get},disconnected},36129},{{{put,put},disconnected},36084},{{{put,put},timeout},12}]
+2013-07-25 08:03:27.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},38215},{{put,put},38439},{{{get,get},disconnected},38215},{{{put,put},disconnected},38426},{{{put,put},timeout},13}]
+2013-07-25 08:03:37.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},74966},{{put,put},74599},{{{get,get},disconnected},74966},{{{put,put},disconnected},74574},{{{put,put},timeout},25}]
+2013-07-25 08:03:47.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},88105},{{put,put},88421},{{{get,get},disconnected},88105},{{{put,put},disconnected},88390},{{{put,put},timeout},31}]
+2013-07-25 08:03:57.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},76941},{{put,put},77452},{{{get,get},disconnected},76941},{{{put,put},disconnected},77428},{{{put,put},timeout},24}]
+2013-07-25 08:04:07.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},49123},{{put,put},49272},{{{get,get},disconnected},49123},{{{put,put},disconnected},49255},{{{put,put},timeout},17}]
+2013-07-25 08:04:17.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},79167},{{put,put},79009},{{{get,get},disconnected},79167},{{{put,put},disconnected},78984},{{{put,put},timeout},25}]
+2013-07-25 08:04:27.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},75592},{{put,put},75977},{{{get,get},disconnected},75592},{{{put,put},disconnected},75953},{{{put,put},timeout},24}]
+2013-07-25 08:04:37.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},54053},{{put,put},53788},{{{get,get},disconnected},54053},{{{put,put},disconnected},53771},{{{put,put},timeout},17}]
+2013-07-25 08:04:47.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},58470},{{put,put},59227},{{{get,get},disconnected},58470},{{{put,put},disconnected},59209},{{{put,put},timeout},18}]
+2013-07-25 08:04:57.738 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},41426},{{put,put},41455},{{{get,get},disconnected},41426},{{{put,put},disconnected},41442},{{{put,put},timeout},13}]
+2013-07-25 08:05:07.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},90857},{{put,put},90664},{{{get,get},disconnected},90857},{{{put,put},disconnected},90634},{{{put,put},timeout},30}]
+2013-07-25 08:05:17.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},125925},{{put,put},125525},{{{get,get},disconnected},125925},{{{put,put},disconnected},125483},{{{put,put},timeout},42}]
+2013-07-25 08:05:27.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},100709},{{put,put},100721},{{{get,get},disconnected},100709},{{{put,put},disconnected},100687},{{{put,put},timeout},34}]
+2013-07-25 08:05:37.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},46341},{{put,put},46047},{{{get,get},disconnected},46341},{{{put,put},disconnected},46032},{{{put,put},timeout},15}]
+2013-07-25 08:05:47.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},43760},{{put,put},43722},{{{get,get},disconnected},43760},{{{put,put},disconnected},43708},{{{put,put},timeout},14}]
+2013-07-25 08:05:57.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},62617},{{put,put},62666},{{{get,get},disconnected},62617},{{{put,put},disconnected},62646},{{{put,put},timeout},20}]
+2013-07-25 08:06:07.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},12686},{{put,put},12804},{{{get,get},disconnected},12686},{{{put,put},disconnected},12800},{{{put,put},timeout},4}]
+2013-07-25 08:06:17.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},53720},{{put,put},53824},{{{get,get},disconnected},53720},{{{put,put},disconnected},53807},{{{put,put},timeout},17}]
+2013-07-25 08:06:27.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},3088},{{put,put},3168},{{{get,get},disconnected},3088},{{{put,put},disconnected},3167},{{{put,put},timeout},1}]
+2013-07-25 08:06:37.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},34077},{{put,put},34089},{{{get,get},disconnected},34077},{{{put,put},disconnected},34078},{{{put,put},timeout},11}]
+2013-07-25 08:06:47.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},12631},{{put,put},12577},{{{get,get},disconnected},12631},{{{put,put},disconnected},12573},{{{put,put},timeout},4}]
+2013-07-25 08:06:57.743 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},19528},{{put,put},19613},{{{get,get},disconnected},19528},{{{put,put},disconnected},19606},{{{put,put},timeout},7}]
+2013-07-25 08:07:07.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},23744},{{put,put},23667},{{{get,get},disconnected},23744},{{{put,put},disconnected},23659},{{{put,put},timeout},8}]
+2013-07-25 08:07:17.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},39672},{{put,put},39958},{{{get,get},disconnected},39672},{{{put,put},disconnected},39945},{{{put,put},timeout},13}]
+2013-07-25 08:07:27.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},3226},{{put,put},3210},{{{get,get},disconnected},3226},{{{put,put},disconnected},3209},{{{put,put},timeout},1}]
+2013-07-25 08:07:37.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},56561},{{put,put},56533},{{{get,get},disconnected},56561},{{{put,put},disconnected},56514},{{{put,put},timeout},19}]
+2013-07-25 08:07:47.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},69150},{{put,put},68979},{{{get,get},disconnected},69150},{{{put,put},disconnected},68957},{{{put,put},timeout},22}]
+2013-07-25 08:07:57.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},34417},{{put,put},34340},{{{get,get},disconnected},34417},{{{put,put},disconnected},34328},{{{put,put},timeout},12}]
+2013-07-25 08:08:07.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},49774},{{put,put},49881},{{{get,get},disconnected},49774},{{{put,put},disconnected},49865},{{{put,put},timeout},16}]
+2013-07-25 08:08:17.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},9337},{{put,put},9511},{{{get,get},disconnected},9337},{{{put,put},disconnected},9508},{{{put,put},timeout},3}]
+2013-07-25 08:08:27.743 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},6344},{{put,put},6304},{{{get,get},disconnected},6344},{{{put,put},disconnected},6302},{{{put,put},timeout},2}]
+2013-07-25 08:08:37.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},44096},{{put,put},43758},{{{get,get},disconnected},44096},{{{put,put},disconnected},43744},{{{put,put},timeout},14}]
+2013-07-25 08:08:47.739 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},29341},{{put,put},29009},{{{get,get},disconnected},29341},{{{put,put},disconnected},29000},{{{put,put},timeout},9}]
+2013-07-25 08:08:57.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},21294},{{put,put},21341},{{{get,get},disconnected},21294},{{{put,put},disconnected},21334},{{{put,put},timeout},7}]
+2013-07-25 08:09:07.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},38722},{{put,put},38804},{{{get,get},disconnected},38722},{{{put,put},disconnected},38790},{{{put,put},timeout},14}]
+2013-07-25 08:09:17.740 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},12099},{{put,put},12213},{{{get,get},disconnected},12099},{{{put,put},disconnected},12209},{{{put,put},timeout},4}]
+2013-07-25 08:09:27.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},68034},{{put,put},67580},{{{get,get},disconnected},68034},{{{put,put},disconnected},67558},{{{put,put},timeout},22}]
+2013-07-25 08:09:37.743 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},16001},{{put,put},15869},{{{get,get},disconnected},16001},{{{put,put},disconnected},15864},{{{put,put},timeout},5}]
+2013-07-25 08:09:47.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},19083},{{put,put},19004},{{{get,get},disconnected},19083},{{{put,put},disconnected},18998},{{{put,put},timeout},6}]
+2013-07-25 08:09:57.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},37314},{{put,put},37257},{{{get,get},disconnected},37314},{{{put,put},disconnected},37244},{{{put,put},timeout},13}]
+2013-07-25 08:10:07.743 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},42172},{{put,put},41875},{{{get,get},disconnected},42172},{{{put,put},disconnected},41862},{{{put,put},timeout},13}]
+2013-07-25 08:10:17.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},19550},{{put,put},19289},{{{get,get},disconnected},19550},{{{put,put},disconnected},19282},{{{put,put},timeout},7}]
+2013-07-25 08:10:27.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},14712},{{put,put},14541},{{{get,get},disconnected},14712},{{{put,put},disconnected},14537},{{{put,put},timeout},4}]
+2013-07-25 08:10:37.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},33537},{{put,put},33728},{{{get,get},disconnected},33537},{{{put,put},disconnected},33717},{{{put,put},timeout},11}]
+2013-07-25 08:10:47.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},9438},{{put,put},9302},{{{get,get},disconnected},9438},{{{put,put},disconnected},9299},{{{put,put},timeout},3}]
+2013-07-25 08:10:57.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},55823},{{put,put},56060},{{{get,get},disconnected},55823},{{{put,put},disconnected},56042},{{{put,put},timeout},18}]
+2013-07-25 08:11:07.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},38283},{{put,put},38484},{{{get,get},disconnected},38283},{{{put,put},disconnected},38472},{{{put,put},timeout},12}]
+2013-07-25 08:11:17.743 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},18946},{{put,put},19052},{{{get,get},disconnected},18946},{{{put,put},disconnected},19046},{{{put,put},timeout},6}]
+2013-07-25 08:11:47.743 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},2981},{{put,put},3083},{{{get,get},disconnected},2981},{{{put,put},disconnected},3082},{{{put,put},timeout},1}]
+2013-07-25 08:11:57.743 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},3321},{{put,put},3235},{{{get,get},disconnected},3321},{{{put,put},disconnected},3234},{{{put,put},timeout},1}]
+2013-07-25 08:12:07.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},29888},{{put,put},29735},{{{get,get},disconnected},29888},{{{put,put},disconnected},29725},{{{put,put},timeout},10}]
+2013-07-25 08:12:17.745 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},1303},{{put,put},1419},{{{get,get},disconnected},1303},{{{put,put},disconnected},1419}]
+2013-07-25 08:12:27.745 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},8316},{{put,put},8488},{{{get,get},disconnected},8316},{{{put,put},disconnected},8485},{{{put,put},timeout},3}]
+2013-07-25 08:12:37.746 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},12302},{{put,put},12237},{{{get,get},disconnected},12302},{{{put,put},disconnected},12233},{{{put,put},timeout},4}]
+2013-07-25 08:12:47.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},6178},{{put,put},6204},{{{get,get},disconnected},6178},{{{put,put},disconnected},6202},{{{put,put},timeout},2}]
+2013-07-25 08:12:57.742 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},3168},{{put,put},3065},{{{get,get},disconnected},3168},{{{put,put},disconnected},3064},{{{put,put},timeout},1}]
+2013-07-25 08:13:07.743 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},6532},{{put,put},6481},{{{get,get},disconnected},6532},{{{put,put},disconnected},6479},{{{put,put},timeout},2}]
+2013-07-25 08:13:17.741 [info] <0.68.0>@basho_bench_stats:process_stats:274 Errors:[{{get,get},16005},{{put,put},15843},{{{get,get},disconnected},16005},{{{put,put},disconnected},15838},{{{put,put},timeout},5}]
+2013-07-25 08:13:18.748 [info] <0.68.0>@basho_bench_stats:report_total_errors:321 Total Errors:
+2013-07-25 08:13:18.748 [info] <0.68.0>@basho_bench_stats:report_total_errors:327   {{get,get},disconnected}: 9686985
+2013-07-25 08:13:18.749 [info] <0.68.0>@basho_bench_stats:report_total_errors:327   {{put,put},disconnected}: 9686380
+2013-07-25 08:13:18.749 [info] <0.68.0>@basho_bench_stats:report_total_errors:327   {{put,put},timeout}: 3186
+2013-07-25 08:13:18.750 [info] <0.2.0>@basho_bench:wait_for_stop:200 Test completed after 30 mins.
